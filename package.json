@@ -4,8 +4,15 @@
   "description": "data about family",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "3salaz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
